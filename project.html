@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website Design Project</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- box icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    
+
+    <!-- nav bar start -->
+    <nav class="navBar">
+        <a href="" class="navSection1">
+            <p> <i class="fa-solid fa-plane-departure"></i> Travel With Me!</p>
+        </a>
+
+        <!-- menu start -->
+        <ul class="navSection2" >
+            <li><a href="#package">Package</a></li>
+            <li><a href="#destination">Destination</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- menu end -->
+
+        <!-- location Sing in start -->
+        <ul class="navSection3">
+            <li><a href="" title="Location"><img src="./imgForProject/library/feather icon/map-pin.svg" alt=""></a></li>
+            <li><a href="" title="Sign in"><img src="./imgForProject/library/feather icon/user.svg" alt=""></a></li>
+            <li><a href="" title="setting"><img src="./imgForProject/library/feather icon/list.svg" alt=""></a></li>
+        </ul>
+        <!-- location Sign in End -->
+    </nav>
+    <!-- nav bar end -->
+
+    <!-- cover start -->
+    <section class="homePage" >
+        <div class="homeCover">
+            <img src="./imgForProject/baganCloudy.avif" alt="">
+            
+            <h1><i>Bagan,  Ancient  city  of  BURMA</i></h1>
+            
+            
+            <section class="searchBar">
+                <!-- country start -->
+                <select name="" id="" class="userSelect">
+                    <option value="" selected>Burma</option>
+                    <option value="">Thailand</option>
+                    <option value="">China</option>
+                    <option value="">Japan</option>
+                    <option value="">Korea</option>
+                    <option value="">Vietnam</option>
+                </select>
+                <span class="line">|</span>
+                <!-- country end -->
+
+                <!-- city start  -->
+                <select name="" id="city" class="userSelect">
+                    <option value="">Yangon</option>
+                    <option value="">Mandalay</option>
+                    <option value="">Naypyitaw</option>
+                    <option value="">Bago</option>
+                    <option value="" selected>Sagaing</option>
+                    <option value="">Pyioolwin</option>
+                </select> 
+                <span class="line">|</span>
+                <!-- city end  -->
+
+                <!-- start date start -->
+                <input type="date" title="Start date" class="userSelect">
+                <span class="line">|</span>
+                <!-- start date end -->
+
+                <!-- end date start -->
+                <input type="date" title="End date" class="userSelect" id="endDate">
+                <span class="line">|</span>
+                <!-- end date end -->
+
+                <!-- people start -->
+                <div class="numberSelect">
+                    <input type="number" min="1" max="25" placeholder="2">
+                    <span id="letter">Adult <i class="fa-solid fa-user-group"></i></span>
+                </div>
+                
+                <!-- people end -->
+
+                <!-- search button start -->
+                <button class="btn"><span>Search</span></button>
+                <!-- search button end -->
+            </section>
+        </div>
+        
+    </section>
+    
+    <!-- covre end -->
+
+    <!-- special offer start -->
+    <section class="specialOffer" id="package">
+        <div class="offerHeading">
+            <h1>Special Offers</h1>
+            <button class="btn"><span>View all</span></button>
+        </div>
+
+        <div class="offer">
+            <!-- offer option 1 -->
+            <section class="offerSection">
+                <div class="offerImg">
+                    <img src="./imgForProject/special offer img/bangkok.jpg" alt="">
+                </div>
+                <h1>Bangkok,Thailand</h1>
+                <p class="starRating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star missing"></span>
+                    <span class="fa fa-star missing"></span>
+                </p>
+                <p class="hotelName"> Carlton Hotel Bangkok Sukhumvit</p>
+                <span class="disPrice">625$</span>
+            </section>
+
+            <!-- offer option 2 -->
+            <section class="offerSection">
+                <div class="offerImg">
+                    <img src="./imgForProject/special offer img/tokyoJapan.jpg" alt="">
+                </div>
+                <h1>Tokyo,Japan</h1>
+                <p class="starRating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </p>
+                <p class="hotelName">Hotel Sunroute located in Tokyo City.</p>
+                <span class="disPrice">330$</span>
+            </section>
+
+            <!-- offer option 3 -->
+            <section class="offerSection">
+                <div class="offerImg">
+                    <img src="./imgForProject/special offer img/yangon.jpg" alt="">
+                </div>
+                <h1>Yangon,Burma</h1>
+                <p class="starRating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star missing"></span>
+                </p>
+                <p class="hotelName"> Chatrium Hotel Royal Lake Yangon</p>
+                <span class="disPrice">420$</span>
+            </section>
+
+            <!-- offer option 4 -->
+            <section class="offerSection">
+                <div class="offerImg">
+                    <img src="./imgForProject/special offer img/korea.JPG" alt="">
+                </div>
+                <h1>Degu,Korea</h1>
+                <p class="starRating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star missing"></span>
+                    <span class="fa fa-star missing"></span>
+                </p>
+                <p class="hotelName">JW Marriott Hotel Seoul</p>
+                <span class="disPrice">545$</span>
+            </section>
+        </div>
+
+    </section>
+    <!-- special offer end -->
+
+    <!-- category start -->
+    <section class="category specialOffer">
+        <div class="catSection1 offerHeading">
+            <h1>Categories</h1>
+            <button class="btn"><span>View all</span></button>
+        </div>
+
+        <div class="catSection2">
+            <!-- category beach -->
+            <section class="catPart">
+                <div class="catImg">
+                    <img src="./imgForProject/category img/beach.jpg" alt="">
+                </div>
+                <div class="catText">
+                    <p class="logo"><i class="fa-solid fa-umbrella-beach"></i></p>
+                    <p class="name">Beach</p>
+                    <p class="price">from 459$</p>
+                </div>
+            </section>
+
+            <!-- category city -->
+            <section class="catPart">
+                <div class="catImg">
+                    <img src="./imgForProject/category img/city.jpg" alt="">
+                </div>
+                <div class="catText">
+                    <p class="logo"><i class="fa-regular fa-building"></i></p>
+                    <p class="name">City</p>
+                    <p class="price">from 312$</p>
+                </div>
+            </section>
+
+            <!-- category health-->
+            <section class="catPart">
+                <div class="catImg">
+                    <img src="./imgForProject/category img/health.jpg" alt="">
+                </div>
+                <div class="catText">
+                    <p class="logo"><i class="fa-solid fa-heart-pulse"></i></p>
+                    <p class="name">Health</p>
+                    <p class="price">from 602$</p>
+                </div>
+            </section>
+
+            <!-- category ski-->
+            <section class="catPart">
+                <div class="catImg">
+                    <img src="./imgForProject/category img/ski.jpeg" alt="">
+                </div>
+                <div class="catText">
+                    <p class="logo"><i class="fa-solid fa-person-skiing"></i></p>
+                    <p class="name">Ski</p>
+                    <p class="price">from 556$</p>
+                </div>
+            </section>
+
+            <!-- category tour-->
+            <section class="catPart">
+                <div class="catImg">
+                    <img src="./imgForProject/category img/tour.jpg" alt="">
+                </div>
+                <div class="catText">
+                    <p class="logo"><i class="fa-solid fa-flag"></i></p>
+                    <p class="name">Tour</p>
+                    <p class="price">from 435$</p>
+                </div>
+            </section>
+
+            <!-- category adventure-->
+            <section class="catPart">
+                <div class="catImg">
+                    <img src="./imgForProject/category img/adventure.jpg" alt="">
+                </div>
+                <div class="catText">
+                    <p class="logo"><i class="fa-regular fa-compass"></i></p>
+                    <p class="name">Adventure</p>
+                    <p class="price">from 673$</p>
+                </div>
+            </section>
+        </div>
+
+    </section>
+    <!-- category end -->
+
+    <!-- popular destination start -->
+    <section class="pplDestination specialOffer" id="destination">
+
+        <section class="pplSection1 offerHeading">
+            <h1>Popular Destination</h1>
+            <button class="btn"><span>View all</span></button>
+        </section>
+
+        <section class="pplSection2">
+            <div class="pplPart">
+                <div class="pplImg">
+                    <img src="./imgForProject/popular distination img/korea beach.jpg" alt="">
+                </div>
+                <div class="pplText">
+                    <h1>Jeju-si Beach Korea </h1>
+                    <p class="pplPrice">From $557</p>
+                </div>
+            </div>
+            
+        </section>
+
+         <section class="pplSection3"> 
+            <div class="pplPart">
+                <div class="pplImg">
+                    <img src="./imgForProject/popular distination img/bangkok.jpg" alt="">
+                </div>
+                <div class="pplText">
+                    <h1>Bangkok</h1>
+                    <p class="pplPrice">From $457</p>
+                </div>
+            </div>
+
+            <div class="pplPart">
+                <div class="pplImg">
+                    <img src="./imgForProject/popular distination img/singapore.jpg" alt="">
+                </div>
+                <div class="pplText">
+                    <h1>Singapore</h1>
+                    <p class="pplPrice">From $607</p>
+                </div>
+            </div>
+        </section>
+            
+        <section class="pplSection4">
+            <div class="pplPart">
+                <div class="pplImg">
+                    <img src="./imgForProject/popular distination img/europe.jpg" alt="">
+                </div>
+                <div class="pplText">
+                    <h1>Europe</h1>
+                    <p class="pplPrice">From $757</p>
+                </div>
+            </div>
+
+            <div class="pplPart">
+                <div class="pplImg">
+                    <img src="./imgForProject/popular distination img/paris.jpg" alt="">
+                </div>
+                <div class="pplText">
+                    <h1>Paris</h1>
+                    <p class="pplPrice">From $557</p>
+                </div>
+            </div>
+
+            <div class="pplPart">
+                <div class="pplImg">
+                    <img src="./imgForProject/popular distination img/uk.jpg" alt="">
+                </div>
+                <div class="pplText">
+                    <h1>United Kingdom</h1>
+                    <p class="pplPrice">From $857</p>
+                </div>
+            </div>
+        </section> 
+    </section>
+    <!-- popular destination end -->
+
+    <!-- blog start -->
+    <section class="blog">
+        <section class="blogSection1 offerHeading">
+            <h1>Blog</h1>
+            <button class="btn"><span>View all</span></button>
+        </section >
+            
+        <section class="blogSection2">
+
+            <div class="blogPart">
+                <div class="blogImg">
+                    <img src="./imgForProject/blog img/blog1.jpg" alt="">
+                </div>
+                <div class="blogText">
+                    <h1>Beautiful beaches in Asia that make you feel like living in past.</h1>
+                    <p class="blogAbout">Going to the beach at the midddle of the summer is kind of relaxing your body and mind.In this blog, we highly recomment to go to the Ng Pa Li beach in burma.One of the most bluest and natural beach in South East Asia.</p>
+                </div>
+            </div>
+
+            <div class="blogPart">
+                <div class="blogImg">
+                    <img src="./imgForProject/blog img/blog2.jpg" alt="">
+                </div>
+                <div class="blogText">
+                    <h1>Best night view on earth to release all you stress and take a rest.</h1>
+                    <p class="blogAbout">Here, we show you most splending and charming galaxy star which you can only feel at the night time of Brazi.The night view of Brazi, full of beautiful star and galaxy ray and so many colourful cloud that shine only above the earth.</p>
+                </div>
+            </div>
+
+            <div class="blogPart">
+                <div class="blogImg">
+                    <img src="./imgForProject/blog img/blog3.jpg" alt="">
+                </div>
+                <div class="blogText">
+                    <h1>Top best 10 place to travle by yourself .</h1>
+                    <p class="blogAbout">Want to travel alone and trying to go away from toxie society? Check this 10 most beautiful and quiet place . Full of flower, tree and gress on the hill of Switzland .You can see natural view and breath the fresh air of the nature earth.</p>
+                </div>
+            </div>
+
+            <div class="blogPart">
+                <div class="blogImg">
+                    <img src="./imgForProject/blog img/blog4.jpg" alt="">
+                </div>
+                <div class="blogText">
+                    <h1>10 best Honey moon destination for every type of couple.</h1>
+                    <p class="blogAbout">Look for the place for a honey moon trip. All beautiful hotel, beach and view are colleced here for couple and married relationship.Take your partaner to there and build the most strongest relationship between you and your love.</p>
+                </div>
+            </div>
+
+            <div class="blogPart">
+                <div class="blogImg">
+                    <img src="./imgForProject/blog img/blog5.jpg" alt="">
+                </div>
+                <div class="blogText">
+                    <h1>Beautiul cloud on the sky  that make you feel like a waving flag.</h1>
+                    <p class="blogAbout">Flying in the sky and travel to the place that make you feel like a home where you can take a rest with any worries.We collect the most safety and clear sky to fly in the sky with our flight.</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- blog end -->
+
+    <!-- footer start -->
+    <section class="footer" id="contact">
+        <section class="footerSection">
+            <!-- footer Part 1 -->
+            <section class="footerPart">
+                <h1 class="footerHead1">Sky High</h1>
+                <div class="footerText">
+                    <p>2021 Sky High</p>
+                    <p>All Rights Reserved.</p>
+                    <div class="social">
+                        <a href="" class="logo"><i class='bx bxl-facebook-circle' ></i></a>
+                        <a href="" class="logo"><i class='bx bxl-twitter'></i></a>
+                        <a href="" class="logo"><i class='bx bxl-instagram' ></i></a>
+                        <a href="" class="logo"><i class='bx bxl-youtube'></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer Part 2 -->
+            <section class="footerPart">
+                <h1 class="footerHead">Purchase and Payment</h1>
+                <div class="footerText">
+                    <a href="#" class="nextPage">How to Pay</a>
+                    <a href="#" class="nextPage">Documents</a>
+                    <a href="#" class="nextPage">Change or terminate tour</a>
+                    <a href="#" class="nextPage">Regulation</a>
+                </div>
+            </section>
+
+            <!-- footer Part 3 -->
+            <section class="footerPart">
+                <h1 class="footerHead">Before traveling</h1>
+                <div class="footerText">
+                    <a href="#" class="nextPage">Visa</a>
+                    <a href="#" class="nextPage">Insurance</a>
+                    <a href="#" class="nextPage">Travel advisory</a>
+                    <a href="#" class="nextPage">Safe trips</a>
+                    <a href="#" class="nextPage">Co-payment</a>
+                </div>
+            </section>
+
+            <!-- footer Part 4 -->
+            <section class="footerPart">
+                <h1 class="footerHead">About Us</h1>
+                <div class="footerText">
+                    <a href="#" class="nextPage">General Information</a>
+                    <a href="#" class="nextPage">News</a>
+                    <a href="#" class="nextPage">Contacts</a>
+                    <a href="#" class="nextPage">Terms</a>
+                    <a href="#" class="nextPage">Help</a>
+                </div>
+            </section>
+        </section>
+    </section>
+    <!-- footer end -->
+    
+</body>
+</html>
