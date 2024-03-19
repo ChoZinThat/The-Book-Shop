@@ -1,2 +1,2 @@
 # Travel-Website-UI
-project for class
+project for class only pure CSS
